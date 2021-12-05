@@ -1,3 +1,5 @@
+New-ADOrganizationalUnit -Name LCSEC -Path "DC=LCDC01,DC=local"
+
 $server_list = Import-Csv -Path C:\Users\Administrator\Downloads\book2.csv
 
 foreach ($server in $server_list) {
