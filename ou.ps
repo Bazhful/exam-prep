@@ -1,0 +1,7 @@
+$server_list = Import-Csv -Path C:\Users\Administrator\Downloads\book2.csv
+
+foreach ($server in $server_list) {
+    echo $server.name
+    echo $server.path
+    New-ADOrganizationalUnit -Name $server.name -Path $server.path
+}
