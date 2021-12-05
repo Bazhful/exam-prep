@@ -1,0 +1,8 @@
+"name","path"
+"Gaster","OU=LC2-Linkoping,DC=LukasDomain,DC=local"
+"Juridik","OU=LC2-Linkoping,DC=LukasDomain,DC=local"
+"HR","OU=LC2-Linkoping,DC=LukasDomain,DC=local"
+"Utvecklare","OU=LC2-Linkoping,DC=LukasDomain,DC=local"
+"SysAdmin","OU=LC2-Linkoping,DC=LukasDomain,DC=local"
+"Ekonomi","OU=LC2-Linkoping,DC=LukasDomain,DC=local"
+"Users", "OU=LC2-Linkoping,OU=Ekonomi,DC=LukasDomain,DC=local"
