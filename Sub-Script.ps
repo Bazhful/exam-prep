@@ -1,0 +1,11 @@
+$server_list = Import-Csv -Path .\Book2.csv
+
+foreach ($server in $server_list) {
+    #echo $server.name
+    #echo $server.path
+    $x = "OU="
+
+    $var = -join($x,$server.name,",",$server.path)
+    echo $var
+
+}
