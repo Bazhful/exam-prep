@@ -6,6 +6,6 @@ foreach ($server in $server_list) {
     $x = "OU="
 
     $var = -join($x,$server.name,",",$server.path)
-    echo $var
+    New-ADOrganizationalUnit -Name $server.name -Path $var
 
 }
